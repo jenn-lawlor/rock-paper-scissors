@@ -1,0 +1,121 @@
+{
+  // ****************** Main Editor ******************
+  "editor.wordWrap": "on",
+  "editor.fontSize": 14,
+  "editor.minimap.autohide": "none",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // add eslint stuff in here in the future
+  "editor.guides.indentation": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.renderControlCharacters": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.unicodeHighlight.nonBasicASCII": true,
+  "editor.unicodeHighlight.invisibleCharacters": true,
+  "editor.unicodeHighlight.includeStrings": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggest.preview": false,
+  "editor.definitionLinkOpensInPeek": true,
+
+  // ****************** Misc ******************
+  "breadcrumbs.enabled": true,
+  "outline.icons": true,
+  "outline.collapseItems": "alwaysExpand",
+
+  // ****************** Security ******************
+  "security.workspace.trust.untrustedFiles": "open",
+  "security.workspace.trust.enabled": true,
+  "security.workspace.trust.banner": "untilDismissed",
+  "security.workspace.trust.emptyWindow": true,
+
+  // ****************** Files ******************
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // ****************** Languages ******************
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[dart]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  // ****************** Git Settings ******************
+  "git.openRepositoryInParentFolders": "never",
+  "git.blame.editorDecoration.enabled": true,
+  "git.blame.editorDecoration.template": "${subject}, ${authorDate}",
+  "git.blame.statusBarItem.enabled": true,
+  "git.blame.statusBarItem.template": "${subject}, ${authorDate}",
+  "git.decorations.enabled": true,
+  "git.inputValidation": true,
+  "git.confirmSync": false,
+  "git.autofetch": false,
+  "git.autorefresh": true,
+  "git.fetchOnPull": false,
+  "git.postCommitCommand": "none",
+  "git.mergeEditor": true,
+  "git.enableSmartCommit": false,
+
+  // ****************** Diff Editor ******************
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderIndicators": true,
+  "diffEditor.wordWrap": "on",
+
+  // ****************** Settings Sync ******************
+  "settingsSync.keybindingsPerPlatform": false,
+  "settingsSync.ignoredExtensions": ["continue.continue"],
+
+  "telemetry.telemetryLevel": "off",
+  "telemetry.feedback.enabled": false,
+
+  "explorer.confirmDragAndDrop": false,
+  "explorer.enableUndo": true,
+
+  // disables Copilot BS
+  "chat.disableAIFeatures": true,
+
+  // ****************** Extensions ******************
+  "prettier.useEditorConfig": false,
+  "prettier.prettierPath": "./node_modules/prettier",
+
+  "liveServer.settings.donotVerifyTags": true
+}
